@@ -1,0 +1,406 @@
+:root {
+    --color1: rgb(35, 37, 54);
+    --color2: rgb(255, 208, 80);
+    --color3: rgb(255, 255, 255);
+    --color4: rgb(111, 112, 118);
+    --color5: rgb(89, 46, 169);
+    --color6: rgb(244, 240, 248);
+    --color7: rgba(172, 174, 190, 0.38);
+    --color8: rgb(251, 246, 234);
+    --color9: rgb(244, 244, 244);
+    --color10: rgb(110, 111, 119);
+    --color11: rgb(109, 110, 118);
+    --color12: rgb(46, 48, 64);
+    --color13: rgb(255 255 255 / 60%);
+}
+
+.container1 {
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+}
+
+p.contact {
+    /* Cap 03 */
+    color: var(--color1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 228px 0 12px;
+}
+
+h1 {
+    /* Heading H1 */
+    color: var(--color1);
+    font-family: Sen;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+p.text {
+    /* Body 1 */
+    color: var(--color11);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 24px 0 64px;
+}
+
+div.purple-block {
+    background-color: var(--color5);
+    padding: 48px 73px 48px 64px;
+    display: flex;
+    margin-bottom: 32px;
+
+}
+
+div.purple-block-first>h3 {
+    /* Body 2 */
+    color: var(--color13);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+
+div.purple-block-second>h3 {
+    /* Body 2 */
+    color: var(--color13);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+
+div.purple-block-first {
+    margin-right: 43px;
+    max-width: 295px;
+    text-align: left;
+}
+
+time.dayoftheweek {
+    color: var(--color3);
+    font-family: 'Sen';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+
+}
+
+time.hours {
+    color: var(--color3);
+    font-family: 'Sen';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+
+}
+
+p.during {
+    /* Body 1 */
+    color: var(--color13);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+div.purple-block-second>a.number>h5 {
+    /* Heading H5 */
+    color: var(--color3);
+    font-family: 'Sen';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+div.purple-block-second>a.email>h5 {
+    /* Body 1 */
+    color: var(--color13);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+main > form > input {
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    border-radius: 2px;
+    background-color: var(--color3);
+    width: 100%;
+    color: var(--color1);
+    margin-right: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 24px;
+
+
+}
+
+main > form > input:focus {
+    border: 2px dashed var(--color5);
+    outline: none;
+    color: var(--color5);
+}
+
+main > form > select {
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    border-radius: 2px;
+    background-color: var(--color3);
+    width: 100%;
+    /* Body 1 */
+    color: var(--color1);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 24px;
+}
+
+main > form >select:focus {
+    outline: none;
+    border: 2px dashed var(--color5);
+    color: var(--color5);
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../images/vector.png");
+    background-repeat: no-repeat;
+    background-position-x: 89%;
+    background-position-y: 50%;
+
+  }
+
+main > form >textarea {
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    border-radius: 2px;
+    width: 100%;
+    height: 144px;
+    /* Body 1 */
+    color: var(--color1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px dashed var(--color5);
+    color: var(--color5);
+}
+
+button {
+    display: inline-flex;
+    background-color: var(--color2);
+    width: 100%;
+    border: none;
+    padding: 16px 303px;
+    color: var(--color1);
+    font-family: 'Sen';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 128px;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: var(--color19);
+    transform: scale(0.9);
+    transition: 0.3s ease;
+  }
+::placeholder{
+    color: var(--color1);
+}
+
+
+
+@media screen and (max-width: 880px) {
+    .container1{
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    main > form > input{
+        max-width: 100%;
+    }
+    button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 128px;
+        padding: 16px 100px;
+    }
+    form {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 700px) {
+    div.purple-block {
+        background-color: var(--color5);
+        padding: 48px 20px;
+        display: flex;
+        margin-bottom: 32px;
+        justify-content: space-around;
+    }
+    button {
+    
+        font-size: 19px;
+     
+    }
+    main > form > input {
+        max-width: 100%;
+        padding: 15px 20px;
+    }
+    main > form > select{
+        padding: 21px 20px;
+    }
+    button {
+        font-size: 20px;
+        margin-bottom: 80px;
+        padding: 15px 20px;
+    }
+    p.contact {
+        padding: 143px 0 12px;
+    }
+    h1 {
+        font-size: 39px;
+    }
+    div.purple-block {
+        background-color: var(--color5);
+        padding: 48px 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    div.purple-block {
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.purple-block-first {
+        margin-right: 0;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    div.purple-block-first>h3{
+        text-align: center;
+    }
+    div.purple-block-second>h3{
+        text-align: center;
+    }
+    div.purple-block-second>a.number>h5 {
+        text-align: center;
+    }
+    button {
+        font-size: 18px;
+    }
+    div.purple-block-first {
+        margin-bottom: 37px;
+    }
+    div.purple-block-second>h3 {
+        padding-bottom: 11px;
+    }
+    div.purple-block-first>h3 {
+        padding-bottom: 11px;
+    }
+}
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 31px;
+    }
+    .container1 {
+        padding: 0 29px;
+    }
+    div.header-div-backgaround {
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    main > form > input {
+        max-width: 100%;
+        padding: 10px 20px;
+    }
+    main > form > select {
+        padding: 14px 20px;
+    }
+    main > form >textarea{
+        height: initial;
+    }
+    h1{
+        font-size: 28px;
+    }
+    p.during{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .container1 {
+        padding: 0 20px;
+    }
+    p.text {
+        text-align: justify;
+       
+    }
+    p.contact {
+        padding: 103px 0 12px;
+        font-size: 16px;
+    }
+    button {
+
+        padding: 10px 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+ 
+
+}

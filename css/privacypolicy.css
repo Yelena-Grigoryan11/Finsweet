@@ -1,0 +1,225 @@
+:root {
+    --color1: rgb(35, 37, 54);
+    --color2: rgb(255, 208, 80);
+    --color3: rgb(255, 255, 255);
+    --color4: rgb(111, 112, 118);
+    --color5: rgb(89, 46, 169);
+    --color6: rgb(244, 240, 248);
+    --color7: rgba(172, 174, 190, 0.38);
+    --color8: rgb(251, 246, 234);
+    --color9: rgb(244, 244, 244);
+    --color10: rgb(110, 111, 119);
+    --color11: rgb(109, 110, 118);
+    --color12: rgb(46, 48, 64);
+    --color13:rgb(76, 76, 76);
+    --color14:rgb(244, 240, 248);
+    --color21: rgba(35, 37, 54, 0.6);
+  }
+  div.header-privacy{
+    background-color: var(--color9);
+    padding: 160px 0 80px;
+    margin-bottom: 128px;
+    text-align: center;
+    /* min-height: 40vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 76px; */
+ 
+  }
+
+
+
+
+ 
+  div.header-privacy >p{
+    /* Body 1 */
+color: var(--color21);
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+  }
+  main.container{
+    margin: auto;
+    max-width: 768px;
+  }
+  h1{
+    /* Heading H1 */
+color: var(--color1);
+font-family: 'Sen';
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: -2px;
+text-align: center;
+padding-bottom: 0
+;
+
+  }
+.first-h2{
+    /* Heading H1 */
+color: var(--color1);
+font-family: Sen;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: -2px;
+text-align: left;
+
+  }
+  p.first{
+    /* Body 1 */
+color:var(--color13);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 32px;
+  }
+  h2{
+    /* Heading H2 */
+color: var(--color1);
+font-family: Sen;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2px;
+text-align: left;
+margin-bottom: 24px;
+  }
+  p.second{
+    color:var(--color13);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 32px;
+margin: 28px auto 128px;
+  }
+  
+  @media screen and (max-width:990px) {
+    p.first {
+      text-align: justify;
+    }
+    p.second {
+      text-align: justify;
+      margin-bottom: 60px;
+    }
+    main.container{
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    div.header-privacy{
+        padding: 150px 0 80px;
+        margin-bottom: 100px;
+      }
+      h1{
+        /* Heading H1 */
+    font-size: 40px;
+    line-height: 50px;    
+    text-align: center;
+    
+      }
+      h2{
+        font-size: 40px;
+        line-height: 50px;    
+        text-align: center;
+      }
+
+  }
+  @media screen and (max-width:700px) {
+    div.header-privacy{
+        padding: 120px 0 80px;
+        margin-bottom: 80px;
+      }
+      h1{
+        /* Heading H1 */
+    font-size: 35px;
+    line-height: 40px;    
+    text-align: center;
+    
+      }
+      h2{
+        font-size: 35px;
+        line-height: 40px;    
+        text-align: center;
+      }
+      .first-h2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;
+        text-align:center;
+    }
+  }
+  @media screen and (max-width:500px) {
+    div.header-privacy{
+        padding: 100px 0 70px;
+        margin-bottom: 70px;
+      }
+      h1{
+        /* Heading H1 */
+    font-size: 30px;
+    line-height: 38px;    
+
+    
+      }
+      h2{
+        font-size: 30px;
+        line-height: 38px;    
+
+      }
+  }
+  @media screen and (max-width:440px) {
+    div.header-privacy{
+        background-color: var(--color9);
+        padding: 90px 0 70px;
+        margin-bottom: 50px;
+      }
+      h1{
+        /* Heading H1 */
+    font-size: 23px;
+    line-height: 35px;    
+
+    
+      }
+      h2{
+        font-size: 23px;
+        line-height: 35px;   
+
+      }
+      main.container{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    div.header-privacy >p {
+      padding: 0 17px;
+  }
+  div.header-privacy {
+    padding: 90px 0 47px;
+
+}
+  }
+  @media screen and (max-width:375px) {
+    h2 {
+      font-size: 22px;
+      line-height: 30px;
+  }
+  h1 {
+    font-size: 22px;
+}
+.first-h2 {
+
+  font-size: 35px;
+  line-height: 40px;
+
+}
+  }
